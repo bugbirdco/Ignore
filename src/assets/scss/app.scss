@@ -1,0 +1,31 @@
+// Webpack example
+@import '~bootstrap';
+@import '~bootstrap-vue';
+
+.text-grey {
+  color: darken($border-color, 10%) !important;
+}
+
+.ignore_search {
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 1px;
+  transition: border .3s ease, margin .3s ease;
+
+  &:focus-within {
+    border-bottom: 2px solid darken($border-color, 5%);
+    margin-bottom: 0;
+  }
+
+  .input-group-text {
+    font-size: .8rem !important;
+    background-color: unset;
+    border: 0;
+  }
+
+  .form-control {
+    border: 0;
+    background-color: unset;
+    outline: none;
+    box-shadow: none;
+  }
+}

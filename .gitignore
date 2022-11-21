@@ -1,3 +1,5 @@
+# Ironically, we don't use a generated .ignore...
+
 .DS_Store
 node_modules
 /dist
